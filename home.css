@@ -1,0 +1,118 @@
+
+*{
+
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'segoe ui', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f6;
+    color: #333;
+    min-height: 100%;
+    display:flex;
+    flex-direction: column;
+
+}
+header{
+    background-color: #00539c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0px;
+
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+nav a.active{
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+main{
+    padding: 5%;
+}
+.hero{
+    background: linear-gradient(to right, #0057b7, #003366);
+    color: white;
+    padding: 40px,20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+
+.hero h2{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.hero p{
+    font-size: 1.2rem;
+}
+
+.mission, .values{
+    margin-bottom: 30px;
+}
+.values{
+    font-weight: bolder;
+    list-style-type: disc;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+    padding-left: 20px;
+    background: linear-gradient(to right, blue, purple);
+    color: aliceblue;
+    border-radius: 10px;
+    box-sizing: border-box;
+    flex-basis: 31%;
+}
+.mission {
+    font-weight: bolder;
+    list-style-type: disc;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+    padding-left: 20px;
+    background: linear-gradient(to right, purple, blue);
+    color: aliceblue;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #00539c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    bottom: 0;
+    margin-top: auto;
+}
+
+img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 10%;
+    height: 15%;
+}
+
+.mpalogo{
+    bottom: 0;
+}
+
+

@@ -1,0 +1,96 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f6;
+    color: #333;
+    min-height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+header{
+    background-color: #00539c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0px;
+
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+nav a.active{
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+main{
+    padding: 1%;
+}
+section{
+    margin-bottom: 30%;
+
+}
+table{
+ 
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    
+}
+table, th, td{
+    border: 1px solid #ccc;
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+footer{
+    background-color: #00539c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    bottom: 0;
+    margin-top: auto;
+}
+img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 10%;
+    height: 15%;
+}
+.couses{
+    background: linear-gradient(to right, purple, red);
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+}
+
+.intro{
+    color: #00539c;
+}
+H3{
+    font-weight: bolder;
+    font-size: 140%;
+    color: BLUE;
+}
+.timetable{
+     height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0%;
+}

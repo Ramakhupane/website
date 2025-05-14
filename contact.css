@@ -1,0 +1,174 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #f4f6;
+    color: #333;
+    min-height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+header{
+    background-color: #00539c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0px;
+
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+nav a.active{
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+main{
+    padding: 1%;
+    text-align: start;
+    width: 100%;
+    margin: 0%;
+}
+
+table{
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    padding: 50%;
+}
+table, th, td{
+    border: 10% solid #ccc;
+}
+th, td{
+    padding: 1%;
+    text-align: center;
+}
+section{
+    padding: 40px;
+    max-width: 600px;
+    margin: 50px auto;
+    background: linear-gradient(to right, lightblue, black);
+    box-shadow: 0 4px 6px rgba(red, green, blue, alpha);
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 100px;
+
+}
+section h1{
+    color: white;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form label{
+    display: block;
+    margin: 10% 0 5%;
+    font-size: 1em;
+    color: #333;
+    text-align: left;
+    font-weight: bold;
+}
+form input,form textarea{
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 1em;
+    border:1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+form button{
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:background-color 0.3s ease ;
+}
+form button:hover{
+    background-color: #45a049;
+    display: block;
+    filter: drop-shadow(0 0 10px #fffdef);
+}
+.container{
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: #00539c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    bottom: 0;
+    margin-top: auto;
+}
+.fa-facebook{
+
+    font-size: 50px;
+    color: blue;
+
+}
+.fa-whatsapp{
+    font-size: 50px;
+    color: green;
+}
+.fa-x-twitter{
+    font-size: 50px;
+    color: black;
+}
+img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 10%;
+    height: 15%;
+}
+
+.contact-form{
+    float: left;
+    margin: 5px;
+    width: 70%;
+    color: white;
+    height: 50%;
+    
+
+}
+.social{
+
+    margin-top: 0px;
+    background-color: #45a049;
+}
+
+.location{
+
+    margin-left: 0px;
+    width: 100%;
+    font-size: 120%;
+    background: linear-gradient(to right,lightblue, black);
+}
